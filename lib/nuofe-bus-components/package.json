@@ -1,0 +1,20 @@
+{
+  "name": "@nuofe/bus-components",
+  "version": "1.0.0",
+  "description": "基于antd的业务组件",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiangmengxia/nuo-bus.git"
+  },
+  "keywords": [
+    "管理后台、组件、antd、业务组件"
+  ],
+  "author": "aihuli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jiangmengxia/nuo-bus/issues"
+  },
+  "homepage": "https://github.com/jiangmengxia/nuo-bus#readme"
+}

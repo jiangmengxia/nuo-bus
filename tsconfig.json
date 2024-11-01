@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "baseUrl": ".",
+    "experimentalDecorators": true,
+    "jsx": "react",
+    "newLine": "lf",
+    "outDir": "dist",
+    "paths": {}
+  }
+}

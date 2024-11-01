@@ -1,0 +1,14 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "node": "current",
+          "es": "2020"
+        }
+      }
+    ],
+    "@babel/preset-react"
+  ]
+}

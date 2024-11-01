@@ -1,0 +1,52 @@
+{
+	"name": "nuo-bus-test",
+	"version": "1.0.0",
+	"description": "nuo-bus",
+	"private": true,
+	"dependencies": {
+		"@nuofe/bus-components": "link:D:/Ymh/npm-packages-nuonuo/nuo-bus/packages/nuofe-bus-components",
+		"@nuofe/bus-hooks": "link:D:/Ymh/npm-packages-nuonuo/nuo-bus/packages/nuofe-bus-hooks",
+		"@nuofe/bus-utils": "link:D:/Ymh/npm-packages-nuonuo/nuo-bus/packages/nuofe-bus-utils",
+		"antd": "3.26.14",
+		"packages": "link:D:/Ymh/npm-packages-nuonuo/nuo-bus/packages",
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1",
+		"redux": "^4.0.5",
+		"react-redux": "^7.2.0",
+		"redux-thunk": "^2.3.0",
+		"lodash": "^4.17.15"
+	},
+	"devDependencies": {
+		"@babel/runtime": "^7.10.3",
+		"@nuofe/eslint-config-react": "8.2.2",
+		"@nuofe/ndk-builder": "8.2.3",
+		"@nuofe/ndk-server": "8.2.2",
+		"core-js": "^3.6.5",
+		"eslint": "^7.3.1",
+		"prettier": "^2.0.5",
+		"typescript": "^3.9.5"
+	},
+	"scripts": {
+		"build": "ndk-builder build --not-upgrade",
+		"dev": "ndk-builder dev --not-upgrade"
+	},
+	"browserslist": [
+		">0.5%",
+		">0.5% in CN",
+		"not ie <= 8",
+		"ie 9"
+	],
+	"jest": {
+		"transform": {
+			"^.+\\.jsx?$": "babel-jest"
+		},
+		"moduleNameMapper": {
+			"\\.(css|less)$": "identity-obj-proxy",
+			"^@func(.*)$": "<rootDir>/src/public-func",
+			"^@store(.*)$": "<rootDir>/src/store$1",
+			"^@components(.*)$": "<rootDir>/src/components$1",
+			"^@views(.*)$": "<rootDir>/src/views$1",
+			"^@ajax(.*)$": "<rootDir>/src/ajax/index"
+		}
+	}
+}

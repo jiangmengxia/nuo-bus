@@ -1,0 +1,40 @@
+.StandardSearchForm {
+  // display: flex;
+  // flex-wrap: wrap;
+
+  :global {
+    .ant-form-item {
+      display: flex;
+      margin: 0;
+      margin-bottom: 20px;
+      width: 100%;
+      vertical-align: middle;
+    }
+    .ant-form-item-label {
+      width: 80px;
+    }
+
+    .ant-form-item-control-wrapper {
+      flex-grow: 1;
+    }
+  }
+
+  .buttons {
+    flex: 1;
+    flex-shrink: 0;
+    text-align: right;
+    align-self: baseline;
+    white-space: nowrap;
+  }
+}
+
+.SearchFormWrapCard {
+  border-radius: 0 !important;
+
+  :global {
+    .ant-card-body {
+      // padding: @search-form-padding;
+      border-color: transparent;
+    }
+  }
+}
